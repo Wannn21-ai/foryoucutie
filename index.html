@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff1f6">
+  <meta name="description" content="A little surprise made just for you.">
+  <title>A Little Surprise ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sticker sticker-one">🎀</div>
+  <div class="sticker sticker-two">⭐</div>
+  <div class="sticker sticker-three">🐻</div>
+
+  <main>
+    <section id="welcome" class="screen welcome">
+      <div class="decor">♡ ·˚ ༘ ⋆｡˚</div>
+      <div class="hero-sticker">🧸💗</div>
+      <p class="eyebrow">A tiny little surprise for</p>
+      <h1>Hai, <span id="herName">kamu</span>!</h1>
+      <p class="description">
+        Aku punya sesuatu yang kecil,
+        tapi semoga bisa bikin harimu lebih manis 🌷
+      </p>
+      <button id="startBtn" class="btn primary">Buka kejutan ♡</button>
+      <p class="tiny">made with a little bit of love & care</p>
+    </section>
+
+    <section id="content" class="screen hidden">
+      <header class="topbar">
+        <span>🎀 little corner</span>
+        <span>♡ for you ♡</span>
+      </header>
+
+      <section class="intro card">
+        <span class="pill">a page just for you</span>
+        <h2>A little corner<br>of happiness 🌸</h2>
+        <p>Nggak ada alasan khusus. Aku cuma pengin bikin sesuatu yang bisa bikin kamu senyum hari ini.</p>
+      </section>
+
+      <section class="section">
+        <p class="section-label">01 — LITTLE MEMORIES 📸</p>
+        <h2>Potongan kecil yang manis</h2>
+        <p class="muted">Beberapa foto buat menghiasi halaman kecil ini.</p>
+        <div class="gallery">
+          <button class="photo polaroid" data-photo="assets/photo-1.jpg">
+            <img src="assets/photo-1.jpg" alt="Foto pertama" loading="lazy">
+            <span>so pretty ♡</span>
+          </button>
+          <button class="photo polaroid tilt" data-photo="assets/photo-2.jpg">
+            <img src="assets/photo-2.jpg" alt="Foto kedua" loading="lazy">
+            <span>little sunshine ☀️</span>
+          </button>
+          <button class="photo polaroid" data-photo="assets/photo-3.jpg">
+            <img src="assets/photo-3.jpg" alt="Foto ketiga" loading="lazy">
+            <span>stay happy 🌷</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="section-label">02 — MUSIC CORNER 🎧</p>
+        <h2>A song for your day</h2>
+        <div class="music-card card">
+          <div class="album">🎵</div>
+          <div class="track-info">
+            <strong id="songTitle">A little melody</strong>
+            <span id="songArtist">A song picked for you ♡</span>
+            <div class="progress-wrap"><div id="progress"></div></div>
+            <div class="time-row">
+              <span id="currentTime">0:00</span>
+              <span id="duration">0:00</span>
+            </div>
+          </div>
+          <button id="playBtn" class="play-btn" aria-label="Putar musik">▶</button>
+        </div>
+        <p class="tiny">Putar musiknya sambil menikmati halaman ini 🎶</p>
+        <audio id="music" src="assets/music.mp3" preload="metadata"></audio>
+      </section>
+
+      <section class="section">
+        <p class="section-label">03 — A LITTLE NOTE 💌</p>
+        <h2>Pesan kecil buat kamu</h2>
+        <div class="letter card">
+          <div id="envelope" class="envelope">💌</div>
+          <p id="letterHint">Ada pesan kecil di dalamnya...</p>
+          <button id="letterBtn" class="btn secondary">Buka surat ♡</button>
+          <div id="letterText" class="letter-text hidden">
+            <p><strong>Hai, kamu! ♡</strong></p>
+            <p>
+              Sebelumnya, aku mau bilang selamat ulang tahun, yaa! 🎂🎉
+              Maaf banget ucapannya telat 11 hari. Walaupun udah lewat,
+              semoga doa-doa baik buat kamu tetap sampai, ya. Semoga kamu
+              selalu sehat, bahagia, dimudahkan segala urusannya, dan
+              dikelilingi banyak hal baik. Semoga apa yang kamu harapkan
+              satu per satu bisa terwujud. Happy belated birthday! 🎀
+            </p>
+            <p>
+              Lucu ya, kita bisa kenal dan ngobrol sejauh ini, padahal kita
+              bahkan belum pernah ketemu secara langsung. Kita cuma kenal
+              lewat layar, lewat pesan-pesan sederhana, obrolan random,
+              dan cerita kecil yang kadang nggak penting-penting banget,
+              tapi entah kenapa tetap menyenangkan.
+            </p>
+            <p>
+              Aku nggak tahu gimana menurut kamu, tapi aku senang bisa kenal
+              kamu. Senang bisa punya teman ngobrol yang awalnya cuma orang
+              asing di internet, tapi sekarang jadi seseorang yang cukup
+              sering muncul di hari-hariku.
+            </p>
+            <p>
+              Aku juga berharap kita bisa terus ngobrol dengan nyaman,
+              saling cerita, saling mengenal, dan tetap jadi diri sendiri
+              tanpa harus berpura-pura jadi orang lain. Nggak perlu buru-buru
+              atau memaksakan apa pun, karena menurutku mengenal seseorang
+              itu juga bagian yang menyenangkan kalau dijalani pelan-pelan.
+            </p>
+            <p>
+              Oh iya, jangan lupa jaga diri baik-baik, ya. Semoga hari-hari
+              kamu dipenuhi hal-hal baik, banyak alasan buat tersenyum,
+              dan selalu ada sesuatu yang bikin kamu bahagia, bahkan dari
+              hal-hal kecil sekalipun.
+            </p>
+            <p>
+              <strong>Makasih ya, udah jadi bagian kecil dari cerita
+              di dunia online ini.</strong> Semoga suatu saat nanti kita
+              punya kesempatan buat ngobrol langsung, bukan cuma lewat
+              layar. Tapi untuk sekarang, aku senang bisa kenal kamu
+              seperti ini. 🌷
+            </p>
+            <p><em>Jangan lupa bahagia dengan cara kamu sendiri. 🎀</em></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section finale">
+        <p class="section-label">04 — ONE LAST THING 🎁</p>
+        <h2>Sebelum kamu pergi...</h2>
+        <p class="muted">Masih ada satu kejutan kecil yang belum dibuka.</p>
+        <div class="gift" id="gift">🎁</div>
+        <button id="giftBtn" class="btn primary">Buka hadiah terakhir!</button>
+        <div id="surprise" class="surprise hidden">
+          <div class="big-heart">💖</div>
+          <h2>Yay, kamu sampai di akhir!</h2>
+          <p>Semoga ada senyum kecil yang tertinggal setelah kamu melihat halaman ini.</p>
+          <p class="final-note">Take care, keep smiling, and have a lovely day! 🌷</p>
+          <button id="heartBtn" class="btn secondary">Coba diklik ♡</button>
+          <div id="heartArea" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <footer>
+        dibuat dengan 🎀 dan sedikit kreativitas
+        <br>for someone who deserves a happy day ♡
+      </footer>
+    </section>
+  </main>
+
+  <dialog id="photoDialog" class="photo-dialog">
+    <button id="closePhoto" class="close-btn" aria-label="Tutup">×</button>
+    <img id="largePhoto" src="" alt="Foto yang diperbesar">
+  </dialog>
+
+  <div id="flowerRain" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
